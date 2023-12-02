@@ -1,15 +1,4 @@
- // var age = prompt("Будь ласка, введіть ваш вік:","");
-        // if (age ) {
-        //     alert("Вам " + age + " рік");
-        // } else if (2<=age<=4) {
-        //     alert("Вам " + age + " роки");
-        // } else if () {
-        //     alert("Вам " + age + " років");
-        // } else {
-        //     alert("Ви ввели не вік. Спробуйте ще");
-        // }
-
-        var age = prompt("Будь ласка, введіть ваш вік:", "");
+ var age = prompt("Будь ласка, введіть ваш вік:", "");
 
         if (age !== null && age > 0 && age !== undefined && age !== NaN) {
            let ageCheck = age.toString();
